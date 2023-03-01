@@ -1,0 +1,23 @@
+.EncabezadoFoto{
+    display: inline-flex;
+    background-color: grey;
+     
+}
+.fotoPerfil{
+    display: inline-flex;
+    height:100px;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    display: contents;
+    margin:0;
+    padding: 0;;
+    height: 100px;
+    width: 100%;
+}
+.bannerFoto{
+    width: 85%;
+    height: 100px;
+}
