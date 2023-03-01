@@ -1,23 +1,69 @@
-.EncabezadoFoto{
-    display: inline-flex;
-    background-color: grey;
-     
-}
-.fotoPerfil{
-    display: inline-flex;
-    height:100px;
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-.banner{
-    display: contents;
-    margin:0;
-    padding: 0;;
-    height: 100px;
-    width: 100%;
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background: #d8d8d8;
+    margin:0.5em auto;
+    padding: 0.5em;
 }
-.bannerFoto{
-    width: 85%;
-    height: 100px;
+
+#header{
+    height:20%;
+    background: #a4a4a4;
+    border-radius: 1em;
+    padding: 0px;
+    margin: 0.5em;
+
+}
+.banner{
+    width: 75%;
+    height: 100%;
+}
+.foto-perfil{
+    width: 25%;
+    height: 100%;
+}
+
+#nav{
+    height:5%;
+    background: #a4a4a4;
+    border-radius: 1em;
+    padding: 0px;
+    margin: 0.5em;
+}
+
+#contenido{
+    height:62%;
+    background: #FFF;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+#footer{
+    height: 8%;
+    background: #424242;
+    border-radius: 1em;
+    margin-top: 0.5em;
+
+}
+
+#section{
+    height: 97%;
+    width:70%;
+    background: #a4a4a4;
+    border-radius: 0.5em;
+    float: left;
+    margin: 0.5em;
+}
+#aside{
+    height: 97%;
+    width: 27%;
+    background: #a4a4a4;
+    border-radius: 0.5em;
+    float: right;
+    margin: 0.5em;
 }
