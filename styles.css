@@ -7,63 +7,129 @@
     width: 1200px;
     height: 1000px;
     background: #d8d8d8;
-    margin:0.5em auto;
-    padding: 0.5em;
+    margin:0 auto;
+    padding: 0.;
 }
 
 #header{
     height:20%;
-    background: #a4a4a4;
     border-radius: 1em;
     padding: 0px;
-    margin: 0.5em;
+    margin: 0;
 
 }
 .banner{
-    width: 75%;
+    width: 82%;
     height: 100%;
 }
 .foto-perfil{
-    width: 25%;
     height: 100%;
 }
 
-#nav{
-    height:5%;
-    background: #a4a4a4;
-    border-radius: 1em;
+#contenedor-Nav{
+    height: 6%;
     padding: 0px;
-    margin: 0.5em;
+    margin: 0;
+
+}
+.Nombre-completo{
+    color: white;
+    height: 100%;
+    width: 27%;
+    float: left;
+    background-color: lightcoral;
+    text-align: center;
+
+
+}
+.Enlaces-contenido{
+    height: 100%;
+    width: 73%;
+    text-align: center;
+    float: right;
+    background-color: lightseagreen;
+
 }
 
+nav ul li{
+
+    border-radius: 4px;
+    color: white;
+    margin-left: 60px;
+    font-size:x-large;
+    float: left;
+    padding: 10px;
+
+}
+nav ul li:hover{
+    margin-top: 7px;
+    background-color: blue;
+}
 #contenido{
-    height:62%;
+    height:70%;
     background: #FFF;
     margin: 1em;
     border-radius: 1em;
 }
 
-#footer{
-    height: 8%;
-    background: #424242;
-    border-radius: 1em;
-    margin-top: 0.5em;
-
-}
 
 #section{
-    height: 97%;
-    width:70%;
-    background: #a4a4a4;
+    height: 100%;
+    width:74%;
+    background: grey;
     border-radius: 0.5em;
     float: left;
-    margin: 0.5em;
+    margin: 0;
 }
+h2{
+
+    color: white;
+    padding: 40px;
+    font-size: xx-large;
+ 
+}
+
+p{
+    margin: 40px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+
+   
+
+
 #aside{
-    height: 97%;
-    width: 27%;
-    background: #a4a4a4;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 25%;
+    background: grey;
     border-radius: 0.5em;
     float: right;
-    margin: 0.5em;
+    margin:0;
+
+}
+.datos-aside{
+    color:white;
+    margin: 40px;
+    text-align: left;
+    font-weight: bolder;
+font-size: x-large;
+}
+
+.iconoInsta{
+   height: 9%;
+   width: 9%;
+}
+footer{
+    height: 100px;
+    background: black;
+}
+.footer-text{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+
 }
